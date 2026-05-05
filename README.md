@@ -10,6 +10,7 @@ Projet du module **P@8 Sécurité** (M1, Efrei Paris), réalisé par une équipe
 
 Scénario : une PME victime d'un grave incident de sécurité a perdu l'intégralité de son SI et nous mandate, en tant qu'ingénieurs SSII, pour le reconstruire intégralement. Contraintes : solutions libres et gratuites en priorité, versions stables, montée en charge jusqu'à 1000 utilisateurs simultanés, conformité légale.
 
+[sujet ici](./sujet_Projet_securite_v3.0b.pdf)
 ---
 
 ## Architecture
