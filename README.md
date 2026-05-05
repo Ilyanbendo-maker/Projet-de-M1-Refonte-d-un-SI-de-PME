@@ -43,7 +43,7 @@ Scénario : une PME victime d'un grave incident de sécurité a perdu l'intégra
 | SIEM | Graylog | RA |
 | EPP / EDR | ESET (licence obtenue en les ayant contactés)| RA |
 | Sauvegarde | Veeam | C |
-| serveur de fichier | Samba | I |
+| Serveur de fichier | Samba | I |
 | VPN client to site | OpenVPN  pour site to site avec la succursale | C |
 | VPN site to site avec la succursale| Wireguard ou ipsec (pas encore décidé) | C |
 | Gestion de parc | OCS Inventory + et/ou Ansible | R |
