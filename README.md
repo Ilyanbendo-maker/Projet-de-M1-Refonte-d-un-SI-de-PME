@@ -30,34 +30,34 @@ Scénario : une PME victime d'un grave incident de sécurité a perdu l'intégra
 
 ### Choix actés
 
-| Brique | Technologie |
-|---|---|
-| Hyperviseur | VMware ESXi 8.0 U2 |
-| Firewall externe | pfSense 2.8 |
-| Firewall interne | OPNsense |
-| Annuaire | Windows Server 2019 (AD DS + RODC) |
-| OS Linux général | Fedora Server |
-| OS messagerie / extranet | Fedora *(imposé)* |
-| OS DNS public | Debian ou FreeBSD *(imposé)* |
-| ERP | Odoo (GPL) |
-| Bastion | Apache Guacamole |
-| SIEM | Graylog |
-| EPP / EDR | ESET (licence obtenue en les ayant contactés)|
-| Sauvegarde | Veeam |
-| VPN client to site | OpenVPN  pour site to site avec la succursale |
-| VPN site to site avec la succursale| Wireguard ou ipsec (pas encore décidé) |
-| Gestion de parc | OCS Inventory + et/ou Ansible |
-| Mises à jour Windows | WSUS |
-| Automatisation Linux | Ansible |
-| MFA + SSO DMZ | Keycloak |
+| Brique | Technologie | RACI |
+|---|---|---|
+| Hyperviseur | VMware ESXi 8.0 U2 | RA |
+| Firewall externe | pfSense 2.8 | RA |
+| Firewall interne | OPNsense | RA |
+| Annuaire | Windows Server 2019 (AD DS + RODC) | I |
+| OS messagerie / extranet | Fedora *(imposé)* | I |
+| OS DNS public | Debian ou FreeBSD *(imposé)* | C |
+| ERP | Odoo (GPL) | I |
+| Bastion | Apache Guacamole | C |
+| SIEM | Graylog | RA |
+| EPP / EDR | ESET (licence obtenue en les ayant contactés)| RA |
+| Sauvegarde | Veeam | C |
+| serveur de fichier | Samba | I |
+| VPN client to site | OpenVPN  pour site to site avec la succursale | C |
+| VPN site to site avec la succursale| Wireguard ou ipsec (pas encore décidé) | C |
+| Gestion de parc | OCS Inventory + et/ou Ansible | R |
+| Mises à jour Windows | WSUS | C |
+| Automatisation Linux | Ansible | RA |
+| MFA + SSO DMZ | Keycloak | RA |
 
 ### À valider
 
-| Brique | Pistes |
-|---|---|
-| Proxy + filtrage URL | Squid + e2guardian |
-| Reverse proxy + WAF | Nginx + ModSecurity / HAProxy |
-| MTA / MDA | Postfix + Dovecot |
+| Brique | Pistes | RACI |
+|---|---|---|
+| Proxy + filtrage URL | Squid + e2guardian | RA |
+| Reverse proxy + WAF | Nginx + ModSecurity / HAProxy | I |
+| MTA / MDA | Postfix + Dovecot | I |
 
 ---
 
