@@ -37,19 +37,20 @@ Scénario : une PME victime d'un grave incident de sécurité a perdu l'intégra
 | Firewall interne | OPNsense | RA |
 | Annuaire | Windows Server 2019 (AD DS + RODC) | I |
 | OS messagerie / extranet | Fedora *(imposé)* | I |
-| OS DNS public | Debian ou FreeBSD *(imposé)* | C |
+| OS DNS public | FreeBSD *(imposé)* | C |
 | ERP | Odoo (GPL) | I |
 | Bastion | Apache Guacamole | C |
-| SIEM | Graylog | RA |
+| SIEM | Graylog | R |
 | EPP / EDR | ESET (licence obtenue en les ayant contactés)| RA |
 | Sauvegarde | Veeam | C |
 | Serveur de fichier | Samba | I |
 | VPN client to site | OpenVPN  pour site to site avec la succursale | C |
 | VPN site to site avec la succursale| Wireguard ou ipsec (pas encore décidé) | C |
-| Gestion de parc | OCS Inventory + et/ou Ansible | R |
+| Gestion de parc | OCS Inventory + et/ou Ansible | RA |
 | Mises à jour Windows | WSUS | C |
 | Automatisation Linux | Ansible | RA |
 | MFA + SSO DMZ | Keycloak | RA |
+| PKI | Openssl (CA racine) + Dogtag (le reste) | R |
 
 ### À valider
 
