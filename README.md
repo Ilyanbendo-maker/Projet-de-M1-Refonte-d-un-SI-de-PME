@@ -67,7 +67,7 @@ Scénario : une PME victime d'un grave incident de sécurité a perdu l'intégra
 ### Livrables
 
 - [x] Schéma d'infrastructure *(30 avril)*
-- [ ] Analyse de risques *(18 mai)*
+- [x] Analyse de risques *(18 mai)*
 - [ ] Service minimum opérationnel *(31 mai)*
 - [ ] Document d'architecture *(15 juin)*
 - [ ] Fiches réflexes administrateur *(15 juin)*
