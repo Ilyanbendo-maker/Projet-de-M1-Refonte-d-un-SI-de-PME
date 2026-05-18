@@ -1,6 +1,6 @@
 # [Projet P@8 Sécurité - Refonte d'un SI de PME](./sujet_Projet_securite_v3.0b.pdf)
 
-> ⚠️ **Projet en cours.**
+> ⚠️ **Projet en cours de réalisation.**
 
 
 
