@@ -68,7 +68,7 @@ Scénario : une PME victime d'un grave incident de sécurité a perdu l'intégra
 
 - [x] Schéma d'infrastructure *(30 avril)*
 - [x] Analyse de risques *(18 mai)*
-- [ ] Service minimum opérationnel *(31 mai)*
+- [x] Service minimum opérationnel *(31 mai)*
 - [ ] Document d'architecture *(15 juin)*
 - [ ] Fiches réflexes administrateur *(15 juin)*
 - [ ] Matrice RACI *(29 juin)*
