@@ -17,7 +17,7 @@ Scénario : une PME victime d'un grave incident de sécurité a perdu l'intégra
 
 ![Schéma réseau](./schéma_réseau.jpg) 
 
-**Choix structurels :**
+**Choix de l'architecture :**
 
 - **DMZ en sandwich** entre deux pare-feu de marques différentes (pfSense / OPNsense) => défense en profondeur, pas de point unique de compromission lié à une CVE éditeur
 - **DMZ segmentée en 4 sous-zones** (INBOUND, OUTBOUND, Mail, VPN) => cloisonnement des flux entrants/sortants et des services en fonction de leur exposition
